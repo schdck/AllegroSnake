@@ -328,7 +328,7 @@ int main()
 
         draw_snake(snake);
 
-        if(++speed_counter >= SCREEN_FPS * 1.3)
+        if(++speed_counter >= SCREEN_FPS * 0.25)
         {
             if(_keyboard_event_queue->length > 0)
             {
